@@ -1,14 +1,11 @@
-const defaultTheme = require("tailwindcss/defaultTheme")
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: "jit",
-  content: ["./src/**/*.{js,jsx}"],
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    screens: {
-      xs: "540px",
-      ...defaultTheme.screens,
+    fontFamily: {
+      sans: ["Satoshi", "sans-serif"],
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 }
