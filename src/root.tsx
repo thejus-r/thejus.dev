@@ -8,9 +8,10 @@ import {
   Routes,
   Scripts,
   Title,
+  Link,
 } from "solid-start"
-import NavBar from "./components/NavBar"
 import "./root.css"
+import NavBar from "./components/NavBar"
 
 export default function Root() {
   return (
@@ -19,6 +20,7 @@ export default function Root() {
         <Title>Thejus Rajendran</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Link rel="icon" type="image/svg" href="/favicon.svg" />
       </Head>
       <Body>
         <NavBar />

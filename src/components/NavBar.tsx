@@ -1,3 +1,3 @@
 export default function NavBar() {
-  return <nav class="sticky top-0 h-24 bg-white">Nav</nav>
+  return <nav class="z-50 fixed top-0 w-full h-24 bg-white">Nav</nav>
 }
