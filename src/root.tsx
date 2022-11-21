@@ -21,6 +21,10 @@ export default function Root() {
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
         <Link rel="icon" type="image/svg" href="/favicon.svg" />
+        <Link
+          href="https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Body>
         <NavBar />

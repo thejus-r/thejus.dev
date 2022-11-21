@@ -1,0 +1,12 @@
+.text-underline {
+    background: #000;
+    width: 0%;
+    height: 1px;
+    position: relative;
+    bottom: 0;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .nav-item:hover .text-underline {
+    width: 100%;
+  }
